@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Test page</title>
+    <meta name="description" content="test page from mdigital@net-c.com">
+</head>
+
+<body>
+    <header class="header header_hide" id="header">
+        <div class="header__container">
+        <a href="index.html"><img src="images/logo.svg" alt="ikons" class="header__logo"></a>
+        <div class="header__ikons_mobile">
+            <a href="https://www.facebook.com"><img src="images/fb_ikon.svg" alt="ikons" class="header__ikon"></a>
+            <a href="https://www.linkedin.com/"><img src="images/in_ikon.svg" alt="ikons" class="header__ikon"></a>
+        </div>
+        <nav>
+            <img src="images/menu.svg" class="header__menu" onclick="changeNav()">
+			<img src="images/close.svg" class="header__close" onclick="changeNav()">
+            <ul class="header__navigation header__navigation_mobile">
+                <li><a href="#tests" class="header__navigation_link">Testy</a></li>
+                <li><a href="#learn" class="header__navigation_link">Szkolenie</a></li>
+                <li><a href="#about" class="header__navigation_link">O nas</a></li>
+                <li><a href="#contacts" class="header__navigation_link">Kontakt</a></li>
+            </ul>
+        </nav>
+    
+        <div class="header__ikons">
+            <a href="https://www.facebook.com"><img src="images/fb_ikon.svg" alt="ikons" class="header__ikon"></a>
+            <a href="https://www.linkedin.com/"><img src="images/in_ikon.svg" alt="ikons" class="header__ikon"></a>
+        </div>
+    </div>
+    </header>
+
+    <div class="wrapper">
+        <main class="page">
+            <section class="intro">
+                <div class="intro__container">
+                    <div class="intro__left">
+                        <h1 class="intro__discription">
+                            Powiemy Ci jak uniknąć ataków hackerskich i chronić ważne dane, abyś Ty, Twoi pracownicy i
+                            klienci mogli spać spokojnie.
+                        </h1>
+                        <a href="#form" class="button intro__button">
+                            <span class="button__title">zapisz się na szkolenie</span>
+                            <img src="images/small_arrow.svg" alt="" class="button__img">
+                        </a>
+                    </div>
+                    <div class="intro__right">
+                        <div>
+                        <img src="images/line.svg" alt="" class="intro__line">
+                        <div class="intro__statistic">
+                            <p class="number">95</p>
+                            <p class="procent">%</p>
+                        </div>
+                    </div>
+                        <p class="intro__text">
+                            firm w Polsce odnotowuje incydenty związane z naruszeniem danych i informacji każdego roku.
+                        </p>
+                    </div>
+                </div>
+                <div class="intro__arrow">
+                    <a href="#tests"><img src="images/blue_arrow.svg" alt=""></a>
+                </div>                
+            </section>
+
+            <section class="tests" id="tests">
+                <div class="container">
+                    <img src="images/testy.png" alt="" class="tests__image">
+                    <div>
+                        <div class="container__top">
+                            <h2>Testy Socjotechniczne</h2>
+                            <p class="container__top_text">
+                                Twój system bezpieczeństwa jest tak niezawodny,
+                                jak jego najsłabsze ogniwo, którym najczęściej jest człowiek.
+                            </p>
+                        </div>
+                        <div class="container__down">
+                            <p class="container__down_text">
+                                Jeśli Twój pracownik nieświadomie dopuścił do swojego komputera osobę niepożądaną lub
+                                niechcący podłączył dysk USB ze szkodliwym oprogramowaniem, wiedz, że haker już jest w
+                                Twojej firmie.
+                            </p>
+                            <p class="container__down_text">
+                                Nasze testy socjotechniczne to praktyczne metody sprawdzenia poziomu świadomości i
+                                czujności Twoich pracowników na zagrożenia związane
+                                zeństwem danych i informacji w Twojej organizacji.
+                                Pomożemy Twojej firmie sprawdzić i wskazać miejsca najbardziej podatne na ataki
+                                cyberprzestępców. W myśl zasady „lepiej zapobiegać niż leczyć”.
+                            </p>
+                            <a href="#form" class="button tests__button">
+                                <span class="button__title">zapisz się na szkolenie</span>
+                                <img src="images/small_arrow.svg" alt="" class="button__img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="examples">
+                    <h3 class="examples__title">Przykładowe scenariusze testów</h3>
+                    <span class="examples__subtitle">
+                        Każdy test wykonany na zlecenie firmy kończy się sporządzeniem szczegółowego raportu z
+                        przeprowadzonych działań.
+                    </span>
+                    <div class="examples__slider swiper">
+                        <div class="examples__slider_wrapper swiper-wrapper">
+                            <div class="examples__slider_slide swiper-slide">
+                                <img src="images/ikon_envelop.svg" alt="" class="slider_image slider_image-big">
+                                <p class="slider_text">
+                                    Wykonanie wiadomości e-mail nakłaniających do podania
+                                    hasła dostępowego do jednego z systemów używanych w firmie.
+                                </p>
+                            </div>
+                            <div class="examples__slider_slide swiper-slide">
+                                <img src="images/ikon_house.svg" alt="" class="slider_image">
+                                <p class="slider_text">
+                                    Wykonanie wiadomości e-mail nakłaniających do podania
+                                    hasła dostępowego do jednego z systemów używanych w firmie.
+                                </p>
+                            </div>
+                            <div class="examples__slider_slide swiper-slide">
+                                <img src="images/ikon_list.svg" alt="" class="slider_image slider_image-big">
+                                <p class="slider_text">
+                                    Wykonanie wiadomości e-mail nakłaniających do podania
+                                    hasła dostępowego do jednego z systemów używanych w firmie.
+                                </p>
+                            </div>
+                            <div class="examples__slider_slide swiper-slide">
+                                <img src="images/ikon_house.svg" alt="" class="slider_image">
+                                <p class="slider_text">
+                                    Wykonanie wiadomości e-mail nakłaniających do podania
+                                    hasła dostępowego do jednego z systemów używanych w firmie.
+                                </p>
+                            </div>
+                            <div class="examples__slider_slide swiper-slide">
+                                <img src="images/ikon_list.svg" alt="" class="slider_image slider_image-big">
+                                <p class="slider_text">
+                                    Wykonanie wiadomości e-mail nakłaniających do podania
+                                    hasła dostępowego do jednego z systemów używanych w firmie.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="learn" id="learn">
+                <div class="container learn__container">
+                    <img src="images/szkolenie.png" alt="" class="learn__image">
+                    <div>
+                        <div class="container__top learn__container_top">
+                            <h2>Szkolenie Bezpieczna Firma</h2>
+                        </div>
+                        <div class="container__down learn__container_down">
+                            <p class="container__down_text">
+                                Szkolenie jest naturalną kontynuacją przeprowadzonych wcześniej testów socjotechnicznych w
+                            siedzibie klienta. Oparte w całości na przykładach z życia wziętych. Analizujemy
+                            prawdopodobne scenariusze wycieku danych w celu uświadomienia pracowników
+                            o możliwych zagrożeniach.
+                            </p>
+                            <p class="container__down_text">
+                                Stawiamy na aktywne uczestnictwo. Jeśli liczysz na suchy wykład,
+                            to nie z nami takie numery! Podczas szkolenia uczestnicy mają możliwość przedstawienia
+                            swoich problemów celem ich wspólnego rozwiązania. Po zakończonych warsztatach każdy z
+                            uczestników otrzymuje zaświadczenie o udziale w szkoleniu.
+                            </p>
+                            
+                            <a href="#form" class="button tests__button">
+                                <span class="button__title">dowiedz się więcej</span>
+                                <img src="images/small_arrow.svg" alt="" class="button__img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="learn__subtitle">Na naszych szkoleniach Twoi pracownicy uzyskają niezbędną wiedzę na
+                    tematy:</h3>
+                <div class="learn__cards">
+                    <div class="learn__cards_left">
+                        <div class="card">
+                            <img src="images/bezpieczeństwo.svg" alt="" class="card__img">
+                            <p class="card__text">
+                                bezpieczeństwa fizycznego na stanowisku pracy
+                            </p>
+                        </div>
+                        <div class="card card-password">
+                            <img src="images/haslo.svg" alt="" class="card__img">
+                            <p class="card__text text-password">
+                                polityki haseł wewnątrz organizacji
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="images/alarm.svg" alt="" class="card__img">
+                            <p class="card__text">
+                                zgłaszania incydentów (komu i co należy alarmować?)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="learn__cards_right">
+                        <div class="card">
+                            <img src="images/buro.svg" alt="" class="card__img">
+                            <p class="card__text">
+                                bezpiecznego korzystania z urządzeń biurowych
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="images/Component 2 – 1.svg" alt="" class="card__img">
+                            <p class="card__text">
+                                bezpiecznego korzystania z poczty elektronicznej oraz sieci
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="images/grupa.svg" alt="" class="card__img">
+                            <p class="card__text card__text-big">
+                                jak powinna wyglądać praca grupowa na plikach wewnątrz organizacji portali
+                                społecznościowych i ich bezpiecznego wykorzystywania w organizacji
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="container">
+                    <img src="images/o_nas.png" alt="" class="tests__image">
+                    <div>
+                        <div class="container__top about__container_top">
+                            <h2>O nas</h2>
+                        </div>
+                        <div class="container__down about__container_down">
+                            <p class="container__down_text">
+                                Od początku istnienia, kładziemy nacisk na jakość świadczonych usług, budowanie know-how,
+                            którym dzielimy się z naszymi klientami, a także na nieustanny rozwój naszych pracowników w
+                            obszarach związanych z bezpieczeństwem informacji oraz zarządzaniem oprogramowaniem.
+                            </p>
+                            <p class="container__down_text">
+                                Naszą misją jest dostarczanie rozwiązań i usług, które podnoszą poziom bezpieczeństwa w
+                            organizacji, wspomagają zarządzanie infrastrukturą IT oraz obniżają koszty ponoszone na jej
+                            utrzymanie. Wierzymy, że nasze usługi ułatwiają Klientom osiąganie sukcesów.
+                            </p>
+                            <span class="text-color">
+                                Firma świadczy usługi szkoleniowe na terenie całego kraju.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                    <h2 class="title-logo">Zaufali nam</h2>
+                    <div class="container__logo swiper"> 
+                        <div class="about__logos swiper-wrapper">
+                            <img src="images/client-logo_03.png" alt="" class="about__logo swiper-slide">
+                            <img src="images/client-logo_01.png" alt="" class="about__logo swiper-slide">
+                            <img src="images/kiel_logo_white_500x140.png" alt="" class="about__logo about__logo-white swiper-slide">
+                            <img src="images/4F_white.png" alt="" class="about__logo about_logo-4f swiper-slide">                            
+                            <img src="images/Axence_Silver-Partner_white.png" alt="" class="about__logo swiper-slide">
+                            <img src="images/logo Silesia-Oil_white.png" alt="" class="about__logo swiper-slide">
+                        </div>  
+                    </div>              
+            </section>
+
+            <section class="form" id="form">
+                <h2 class="form__title">Dowiedz się jak zabezpieczyć swoją firmę</h2>
+                <form class="form__container" id="form">
+                    <div class="formInputs">
+                        <div class="formInputs__container">
+                            <div class="inputs-container">
+                                <input type="text" placeholder="imię i nazwisko" class="formInputs__item inputs-top" id="name">
+                                <input type="text" placeholder="adres e-mail" class="formInputs__item inputs-top" id="email">
+                            </div>
+                            <div>
+                                <select class="formInputs__item item-drop">
+                                    <option class="item">wybierz szkolenie</option>
+                                    <option class="item">szkolenie 1</option>
+                                    <option class="item">szkolenie 2</option>
+                                    <option class="item">szkolenie 3</option>
+                                </select>
+
+                                <input type="text" placeholder="wiadomość" class="formInputs__item item-message" id="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__buutonText" id="message"></div>
+                    <button class="button form-button">wyślij</button>
+                </form>
+
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer" id="contacts">
+        <div class="footer__container">
+        <a href="#header"><img src="images/logo.svg" alt="ikons" class="footer__logo"></a>
+        <div class="footer__contacts">
+            <span class="footer__contact">AUDITORIA Sp. z o. o.</span>
+            <span class="footer__contact">ul. Grunwaldzka 1 lok. 6, 63-100 Śrem</span>
+            <div>
+                <span class="contacts-color">+48 61 22 11 861</span>
+                <span class="contacts-color">|</span>
+                <span class="contacts-color">biuro@auditoria.pl</span>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
