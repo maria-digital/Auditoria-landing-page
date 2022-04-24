@@ -384,6 +384,7 @@ h3{
     background: transparent;
     box-sizing: border-box;
     padding: 20px;
+    color: #707070;
 }
 
 .item-drop {
@@ -423,9 +424,10 @@ h3{
 .form-button {
     margin: 0 auto;
     border: none;
-
     font-weight: bold;
     color: #ffffff;
+    padding-top: 20px;
+    box-sizing: border-box;
 }
 
 .footer {
