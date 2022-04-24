@@ -118,6 +118,12 @@ h3{
     box-shadow: -2px 3px 15px 0px rgba(44,136,255,0.86);
 }
 
+.button__img {
+    width: 16px;
+    height: 12px;
+    margin-top: 27px;
+}
+
 .intro__button {
     margin-top: 55px;
 }
